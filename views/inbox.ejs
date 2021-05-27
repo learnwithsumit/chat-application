@@ -1,0 +1,64 @@
+<%- include('./partials/header.ejs'); %>
+    <div id="chat-container">
+      <div id="search-container">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div id="conversation-list">
+        <div class="conversation active">
+          <img src="./images/user1.png" alt="Sumit" />
+          <div class="title-text">Sumit Saha</div>
+          <di class="created-date"> Apr 16 </di>
+          <div class="conversation-message">This is a message</div>
+        </div>
+        <div class="conversation">
+          <img src="./images/user2.png" alt="Sumit" />
+          <div class="title-text">Sumit Saha</div>
+          <di class="created-date"> Apr 16 </di>
+          <div class="conversation-message">This is a message</div>
+        </div>
+      </div>
+      <div id="new-message-container">
+        <a href="#">+</a>
+      </div>
+      <div id="chat-title">
+        <span>Sumit</span>
+        <img src="./images/trash.png" alt="Delete Conversation" />
+      </div>
+      <div id="chat-message-list">
+        <div class="message-row other-message">
+          <div class="message-content">
+            <img src="./images/user1.png" alt="Sumit" />
+            <div class="message-text">Ok then</div>
+            <div class="message-time">Apr 16</div>
+          </div>
+        </div>
+        <div class="message-row you-message">
+          <div class="message-content">
+            <div class="message-text">Lorem ipsum dolor sit amet</div>
+            <div class="message-time">Apr 16</div>
+          </div>
+        </div>
+      </div>
+      <div id="chat-form">
+        <img src="./images/attachment.png" alt=Add Attachment"" />
+        <input type="text" placeholder="Type a message" />
+      </div>
+    </div>
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <a href="#" class="modal-close">+</a>
+        <div class="modal-title">
+          <h2>Create New Conversation</h2>
+        </div>
+        <div class="modal-body">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Username" />
+            <input type="button" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
