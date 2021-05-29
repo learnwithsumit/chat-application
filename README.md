@@ -5,9 +5,9 @@
 
 <br />
 <p align="center">
-  <h3 align="center"><a href="https://github.com/learnwithsumit/chat-application/tree/lesson-2">Lesson - 2 - Node.js Chat Application in Express.js, MongoDB & EJS template engine</a></h3>
+  <h3 align="center"><a href="https://github.com/learnwithsumit/chat-application/tree/lesson-3">Lesson - 3 - Node.js Chat Application in Express.js, MongoDB & EJS template engine</a></h3>
 
-A complete guide on SASS described in Bangla. Please check the video tutorial here -
+A full stack Node.js project described in Bangla. Please check the video tutorial by clicking the image below -
 
 [![View on Youtube](http://img.youtube.com/vi/N3vG6Yt-e6k/0.jpg)](https://youtu.be/N3vG6Yt-e6k)
 
@@ -29,9 +29,9 @@ Please follow the below instructions to run this project in your machine:
    git clone https://github.com/learnwithsumit/chat-application.git
    ```
 2. Watch the youtube tutorial on this topic - https://youtu.be/N3vG6Yt-e6k.
-3. Check out to lesson-2 branch with the below command
+3. Check out to lesson-3 branch with the below command
    ```sh
-   git checkout lesson-2
+   git checkout lesson-3
    ```
 4. Run npm install
 5. Then rename the .env.example file to ".env" and change values as per your need
