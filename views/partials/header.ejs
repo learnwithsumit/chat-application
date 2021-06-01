@@ -11,13 +11,24 @@
     <link rel="stylesheet" href="./stylesheets/toastify.css" />
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <script src="./js/toastify.js"></script>
+    <script src="./js/moment.js"></script>
   </head>
   <body>
     <div class="menu">
       <% if (loggedInUser && loggedInUser.username) { %>
       <div class="menu-item"><a href="/inbox">Inbox</a></div>
       <div class="menu-item"><a href="/users">Users</a></div>
-      <div class="menu-item"><a href="#" onclick="logout()">Logout</a></div>
+      <div class="menu-item">
+        <% if (loggedInUser && loggedInUser.avatar) { %>
+        <img
+          src="./uploads/avatars/<%= loggedInUser.avatar %>"
+          alt="<%= loggedInUser.name %>"
+        />
+        <% } else { %>
+        <img src="./images/nophoto.png" alt="<%= loggedInUser.name %>" />
+        <% } %>
+        <a href="#" onclick="logout()">Logout</a>
+      </div>
       <% } else { %>
       <div class="menu-item"><a href="/inbox">Inbox</a></div>
       <div class="menu-item"><a href="/users">Users</a></div>

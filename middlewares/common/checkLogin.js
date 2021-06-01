@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 
+// auth guard to protect routes that need authentication
 const checkLogin = (req, res, next) => {
   let cookies =
     Object.keys(req.signedCookies).length > 0 ? req.signedCookies : null;
@@ -39,6 +40,7 @@ const checkLogin = (req, res, next) => {
   }
 };
 
+// redirect already logged in user to inbox pabe
 const redirectLoggedIn = function (req, res, next) {
   let cookies =
     Object.keys(req.signedCookies).length > 0 ? req.signedCookies : null;

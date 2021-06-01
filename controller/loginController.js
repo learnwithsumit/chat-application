@@ -28,10 +28,11 @@ async function login(req, res, next) {
       if (isValidPassword) {
         // prepare the user object to generate token
         const userObject = {
+          userid: user._id,
           username: user.name,
-          mobile: user.mobile,
           email: user.email,
-          role: "user",
+          avatar: user.avatar || null,
+          role: user.role || "user",
         };
 
         // generate token
@@ -49,7 +50,7 @@ async function login(req, res, next) {
         // set logged in user local identifier
         res.locals.loggedInUser = userObject;
 
-        res.render("inbox");
+        res.redirect("inbox");
       } else {
         throw createError("Login failed! Please try again.");
       }
