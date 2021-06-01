@@ -5,7 +5,7 @@
 
 <br />
 <p align="center">
-  <h3 align="center"><a href="https://github.com/learnwithsumit/chat-application/tree/lesson-5">Lesson - 5 - Node.js Chat Application in Express.js, MongoDB & EJS template engine</a></h3>
+  <h3 align="center"><a href="https://github.com/learnwithsumit/chat-application/tree/lesson-6">Lesson - 6 - Node.js Chat Application in Express.js, MongoDB & EJS template engine</a></h3>
 
 A full stack Node.js project described in Bangla. Please check the video tutorial by clicking the image below -
 
@@ -29,9 +29,9 @@ Please follow the below instructions to run this project in your machine:
    git clone https://github.com/learnwithsumit/chat-application.git
    ```
 2. Watch the youtube tutorial on this topic - https://youtu.be/N3vG6Yt-e6k.
-3. Check out to lesson-5 branch with the below command
+3. Check out to lesson-6 branch with the below command
    ```sh
-   git checkout lesson-5
+   git checkout lesson-6
    ```
 4. Run npm install
 5. Then rename the .env.example file to ".env" and change values as per your need
