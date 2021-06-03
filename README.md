@@ -9,7 +9,7 @@
 
 A complete guide on SASS described in Bangla. Please check the video tutorial here -
 
-[![View on Youtube](http://img.youtube.com/vi/N3vG6Yt-e6k/0.jpg)](https://youtu.be/N3vG6Yt-e6k)
+[![View on Youtube](http://img.youtube.com/vi/ujLUe1Hgd_Q/0.jpg)](https://youtu.be/ujLUe1Hgd_Q)
 
 <!-- TABLE OF CONTENTS -->
 
@@ -28,7 +28,7 @@ Please follow the below instructions to run this project in your machine:
    ```sh
    git clone https://github.com/learnwithsumit/chat-application.git
    ```
-2. Watch the youtube tutorial on this topic - https://youtu.be/N3vG6Yt-e6k.
+2. Watch the youtube tutorial on this topic - https://youtu.be/ujLUe1Hgd_Q.
 3. Check out to lesson-2 branch with the below command
    ```sh
    git checkout lesson-2
