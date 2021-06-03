@@ -9,7 +9,7 @@
 
 A full stack Node.js project described in Bangla. Please check the video tutorial by clicking the image below -
 
-[![View on Youtube](http://img.youtube.com/vi/N3vG6Yt-e6k/0.jpg)](https://youtu.be/N3vG6Yt-e6k)
+[![View on Youtube](http://img.youtube.com/vi/VclaxHIXrKw/0.jpg)](https://youtu.be/VclaxHIXrKw)
 
 <!-- TABLE OF CONTENTS -->
 
@@ -28,7 +28,7 @@ Please follow the below instructions to run this project in your machine:
    ```sh
    git clone https://github.com/learnwithsumit/chat-application.git
    ```
-2. Watch the youtube tutorial on this topic - https://youtu.be/N3vG6Yt-e6k.
+2. Watch the youtube tutorial on this topic - https://youtu.be/VclaxHIXrKw.
 3. Check out to lesson-3 branch with the below command
    ```sh
    git checkout lesson-3
